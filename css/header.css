@@ -5,10 +5,16 @@
   font-size: 40px;
   
 }
+.acc{
+  margin-right: 48px;
+}
+.logo,.acce,.cloth,.about{
+  color: black;
+}
 
 .header{
   margin: 0;
-  background-color: rgb(244, 244, 204);
+  background-color: rgb(240, 240, 229);
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -28,10 +34,11 @@
   justify-items: center;
   gap: 2rem;
 }
-.search-bar input{
- padding-top: 0.5rem;
- padding-bottom: 0.5rem;
- padding-right: 3rem;
+#search{
+  width: 35em;
+  height: 3em;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
 }
 .middle-header{
   display: flex;
