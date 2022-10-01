@@ -1,0 +1,23 @@
+.footer{
+  background-color: rgb(29, 29, 29);
+  color: white;
+ 
+}
+.links{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.store{
+  margin-left: 300px;
+}
+.add{
+  margin-right: 300px;
+}

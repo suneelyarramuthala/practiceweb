@@ -1,0 +1,75 @@
+.category-heading{
+  font-size: 35px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.image img{
+  width: 100%;
+  border-radius: 10px;
+  
+ 
+}
+.product-title,
+.product-company{
+  font-size: 17px;
+}
+.information-container{
+  width: 250px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 0px;
+}
+.product-card{
+  display: inline-block;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px gray;
+  background-color: white;
+}
+.product-card:hover{
+  box-shadow: 10px 10px 10px black;
+}
+.main{
+  margin-left: 71px;
+  margin-top: 16px;
+}
+.product-title{
+  font-weight: bold;
+  margin-top: 0px;
+
+}
+.image{
+  margin-bottom: 0px;
+  width: 250px;
+}
+.product-prize p{
+  margin-left: 70px;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(49, 49, 166);
+  
+
+}
+.product-prize{
+  width: 230px;
+  background-color: bisque;
+  
+}
+.banner{
+  display: flex;
+  width: 1325px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px gray;
+}
+.banner:hover{
+  box-shadow: 10px 10px 10px black;
+}
+.banner img{
+  width: 1325px;
+  border-radius: 10px;
+}

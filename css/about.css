@@ -1,0 +1,53 @@
+.main-about{
+  background-image: url(../img/joshua-chun-y_gFnFzr0HY-unsplash.jpg);
+  height: 800px;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+
+}
+.text{
+  margin: 0px;
+  position: absolute;
+  height:500px ;
+  width: 900px;
+  top: 130px;
+  left: 150px;
+  background-color: white;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.3px;
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.text h1{
+  margin-left: 60px;
+  color: blue;
+}
+.text p{
+  margin-left: 70px;
+}
+.header{
+  z-index: 10;
+}
+.contact-button{
+  border: none;
+  color: white;
+  background-color: rgb(26, 26, 206);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px rgb(34, 34, 78);
+  margin-left: 370px;
+}
