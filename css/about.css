@@ -29,9 +29,11 @@
 .text h1{
   margin-left: 60px;
   color: blue;
+  font-family: sans-serif;
 }
 .text p{
   margin-left: 70px;
+  font-family: sans-serif;
 }
 .header{
   z-index: 10;
