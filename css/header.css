@@ -5,11 +5,25 @@
   font-size: 40px;
   
 }
-.acc{
-  margin-right: 48px;
-}
+
 .logo,.acce,.cloth,.about{
   color: black;
+}
+.acce,.cloth,.about{
+  transition: transform .2s;
+}
+.acce:hover{
+  color: blue;
+  transform: scale(1.2); 
+}
+.cloth:hover{
+  color: blue;
+  transform: scale(1.2); 
+}
+.about:hover{
+  color: blue;
+  transform: scale(1.2); 
+
 }
 
 .header{
@@ -24,6 +38,7 @@
   border: 0;
   border-bottom: 1px;
   border-style: solid;
+  z-index: 10;
 }
 
 .left-header{
@@ -56,6 +71,12 @@
 .header{
   position: sticky;
   top: 0px;
+}
+.s-icon{
+  transition: transform .2s;
+}
+.s-icon:hover{
+  transform: scale(1.2); 
 }
 
 

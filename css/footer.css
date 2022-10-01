@@ -21,3 +21,9 @@
 .add{
   margin-right: 300px;
 }
+div a p:hover{
+  color: blue;
+}
+.f-head{
+  font-size: 20px;
+}
