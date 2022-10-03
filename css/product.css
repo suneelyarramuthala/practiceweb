@@ -1,0 +1,144 @@
+.main-product p{
+  margin: 0;
+}
+.product-img img{
+  max-width: 450px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px black;
+}
+.main-product{
+  display: flex;
+  justify-content:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.product-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 500px;
+}
+.info p{
+  padding-bottom: 8px;
+}
+.title{
+  font-weight: 900;
+  font-size: large;
+  font-family: sans-serif;
+}
+.prize,.review{
+  font-size: smaller;
+  font-family: sans-serif;
+}
+.p{
+  font-size: x-small;
+  font-family: sans-serif;
+  color: rgb(220, 187, 155);
+}
+.color-pick{
+  display: flex;
+  justify-content:flex-start;
+
+}
+.size-pick{
+  display: flex;
+  justify-content: flex-start;
+}
+.size-pick div{
+  margin-right: 10px;
+ margin-top: 4px;
+ margin-bottom: 4px;
+ border-style: solid;
+  border-width: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 30px;
+}
+.color-pick div{
+ margin-right: 30px;
+ margin-top: 4px;
+ margin-bottom: 4px;
+ border-style: solid;
+  border-width: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 30px;
+}
+.select{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.select p{
+  font-size: smaller;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.Black{
+  background-color: black;
+  color: white;
+}
+.Blue{
+  background-color: blue;
+  color: white;
+}
+.count-in{
+  width: 40px;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+}
+.plus,.minus{
+  background-color: blue;
+  color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: blue;
+}
+.counter{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.c-1,.c-2,.c-3{
+  margin-bottom: 10px;
+}
+.add1{
+  display: inline;
+  margin: 0;
+  margin-right: 50px;
+  height: 40px;
+  width: 120px;
+  margin-top: 10px;
+  background-color: rgb(92, 92, 239);
+  border-color: rgb(92, 92, 239);
+  border-width: 1px;
+  border-radius: 15px;
+  color: white;
+}
+.btn{
+  display: flex;
+  justify-content:flex-start;
+}
+.t1{
+  padding-bottom: 10px;
+}
+.pr1{
+  padding-bottom: 8px;
+}
+
+.p1{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
