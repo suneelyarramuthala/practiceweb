@@ -19,8 +19,6 @@ function GoToContact(){
   location.replace("contact.html")
 }
 function productpage(){
-  location.replace("product.html")
+  window.location.href = "product.html";
 }
-document.getElementsByClassName("product-card"){
-  onclick="productpage()";
-}
+document.getElementsByClassName("product-card").onclick = function() {productpage()};
