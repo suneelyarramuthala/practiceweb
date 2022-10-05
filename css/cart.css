@@ -1,0 +1,41 @@
+.main-cart p{
+  margin: 0;
+}
+.cart-heading{
+  text-align: center;
+}
+.cart-table{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.cart-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.ele-1{
+  display: flex;
+
+}
+.count-in{
+  width: 40px;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+}
+.plus,.minus{
+  background-color: blue;
+  color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: blue;
+}
+.counter{
+ 
+}
+.item-d{
+  padding-right: 140px;
+}

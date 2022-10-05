@@ -141,4 +141,20 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+.color-pick div,.size-pick div{
+  text-decoration: none;
+  border-color: black;
+  
+  
+}
+.color-pick div:hover{
+  border-color: rgb(162, 162, 1);
+  border-width: 1px;
+}
+.color-pick div:focus{
+  outline: 3px;
+  outline-color: blueviolet;
+}
+.white p{
+  color: black;
+}

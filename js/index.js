@@ -21,3 +21,6 @@ function GoToContact(){
 function productpage(){
   location.replace("product.html")
 }
+document.getElementsByClassName("product-card"){
+  onclick="productpage()";
+}
