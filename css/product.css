@@ -121,6 +121,11 @@
   border-radius: 15px;
   color: white;
 }
+.add1:hover{
+  background-color: blue;
+  border-color: blue;
+  box-shadow: 5px 5px 10px black;
+}
 .btn{
   display: flex;
   justify-content:flex-start;
