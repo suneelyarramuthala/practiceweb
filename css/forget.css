@@ -1,0 +1,6 @@
+.p4{
+  justify-content: flex-end !important;
+}
+.p4 button {
+  width: fit-content;
+}

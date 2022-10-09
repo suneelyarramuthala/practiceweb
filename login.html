@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website/Login</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="login-header">
+    <div class="top">
+      <div class="back" onclick="goback()">
+        <img src="img/back.png" alt="" width="30px">
+      </div>
+      <div>
+        <a href="index.html"><div class="logo">BUYLAME</div></a>
+      </div>
+    </div>
+    <div class="cancel" onclick="home()">
+      <img src="img/cancel.png" alt="" width="30px">
+    </div>
+  </div>
+  <div class="login-main">
+    <div class="login-details">
+      <div class="login-info">
+        <div class="p1">
+          <p class="log">Sign In</p>
+          <p class="welcome">Welcome back to SHOPLANE, please put your login credentials below to access your account</p>
+        </div>
+        <div class="p2">
+          <div>
+            <label for="email-login"><p class="login-lable margin">E-mail</p></label>
+            <input type="mail" id="email-login" name="email-login" placeholder="hello@example.com">
+          </div>
+          <div>
+            <label for="password"><p class="login-lable">Password</p></label>
+            <input type="password" id="password" name="password" placeholder="password">
+          </div>
+        </div>
+        <div class="p3"><a href="forget.html"><p>Forget password?</p></a></div>
+        <div class="p4">
+          <p>Remember me</p>
+          <button>Sign In</button>
+        </div>
+        <div class="p5">
+          <p>Don't have an account? <a href="register.html">Sign up</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="login-image">
+      <img src="img/login.jpg" alt="">
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

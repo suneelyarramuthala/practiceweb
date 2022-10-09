@@ -21,4 +21,9 @@ function GoToContact(){
 function productpage(){
   window.location.href = "product.html";
 }
-document.getElementsByClassName("product-card").onclick = function() {productpage()};
+function goback(){
+  window.history.back();
+}
+function home(){
+  location.replace("index.html")
+}

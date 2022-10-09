@@ -25,6 +25,9 @@
   transform: scale(1.2); 
 
 }
+.acc img{
+  width: 35px;
+}
 
 .header{
   margin: 0;

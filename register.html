@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website/Login</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="login-header">
+    <div class="top">
+      <div class="back" onclick="goback()">
+        <img src="img/back.png" alt="" width="30px">
+      </div>
+      <div>
+        <a href="index.html"><div class="logo">BUYLAME</div></a>
+      </div>
+    </div>
+    <div class="cancel" onclick="home()">
+      <img src="img/cancel.png" alt="" width="30px">
+    </div>
+  </div>
+  <div class="login-main">
+    <div class="login-details">
+      <div class="login-info">
+        <div class="p1">
+          <p class="log">Sign Up</p>
+          <p class="welcome">Welcome to SHOPLANE, please enter details below to register for your account</p>
+        </div>
+        <div class="p2">
+          <div>
+            <label for="name"><p class="login-lable margin">Name</p></label>
+            <input type="text" id="name" name="name" placeholder="Name Example">
+          </div>
+          <div>
+            <label for="email-login"><p class="login-lable margin">E-mail</p></label>
+            <input type="mail" id="email-login" name="email-login" placeholder="hello@example.com">
+          </div>
+          <div>
+            <label for="password"><p class="login-lable">Password</p></label>
+            <input type="password" id="password" name="password" placeholder="password">
+          </div>
+          <div>
+            <label for="retype"><p class="login-lable">Retype</p></label>
+            <input type="password" id="retype" name="retype" placeholder="retype-password">
+          </div>
+        </div>
+        <div class="pi3">
+          <div>
+            <input type="checkbox" name="tandc" id="tandc"><label for="tandc">I've read and accept the</label> <a>Terms & Conditions</a>
+
+          </div>
+          <div>
+            <input type="checkbox" name="newsletter" id="newsletter"><label for="newsletter">Subcribe to Newsletter Stay Up to Date</label>
+
+          </div>
+        </div>
+        <div class="p4">
+          <div>
+          </div>
+          <button>Sign Up</button>
+        </div>
+        <div class="p5">
+          <p>Alredy have an account? <a href="login.html">Sign In</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="login-image">
+      <img src="img/register.png" alt="">
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
