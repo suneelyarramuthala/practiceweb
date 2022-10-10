@@ -8,46 +8,52 @@ A e-commerce layout design example and frontend template of the design
 
 ![App Screenshot](img/home1.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/home2.png)
 
 
 ## CLOTHING PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/clothing.png)
 
 
 ## ACCESSORIES PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/access.png)
 
 
 ## ABOUT US PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/contact1.png)
 
 
 ## CONTACT US PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/contact.png)
 
 
 ## CART PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/cart.png)
 
 
 ## SIGN IN PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/signin.png)
 
 
 ## SIGN UP PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/signup.png)
 
 
 ## FORGET PASSWORD PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/forgetpassword.png)
+
+
+## PRODUCT PAGE
+
+![App Screenshot](img/product.png)
+
 
 
