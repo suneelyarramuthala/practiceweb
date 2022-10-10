@@ -6,7 +6,7 @@ A e-commerce layout design example and frontend template of the design
 
 ## HOME PAGE
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](img/home1.png)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
