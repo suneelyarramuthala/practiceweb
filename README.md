@@ -22,7 +22,7 @@ A e-commerce layout design example and frontend template of the design
 
 ## CONTACT US PAGE
 
-![App Screenshot](img/contact.png)
+![App Screenshot](img/contact1.png)
 
 ## CART PAGE
 
