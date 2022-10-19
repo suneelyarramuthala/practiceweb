@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+  <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="discription" content="your discription">
+        <meta name="author" content="author name">
+        <meta name="keywords" content="keyword1, keyword2, ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Website</title>
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/address.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <style>
+        </style>
+        <script>
+          
+        </script>
+      </head>
+      <body>
+          <div class="header">
+            <div class="left-header">
+              <a href="index.html"><div class="logo">BUYLAME</div></a>
+              <a href="clothing.html"><div class="cloth">CLOTHING</div></a>
+              <a href="accessories.html"><div class="acce">ACCESSORIES</div></a>
+              <a href="about.html"><div class="about">ABOUT</div></a>
+            </div>
+            <div class="middle-header">
+              <div class="search-bar">
+                <input type="search" placeholder="Search for products" id="search">
+              </div>
+              <div class="s-icon">
+                <a href="#"><img src="img/search-icon.webp" alt=""width="20px"></a>
+              </div>
+            </div>
+            <div class="right-header">
+              <div>
+                <a href="cart.html"><img src="img/cart.webp" alt="" width="30px"></a>
+              </div>
+              <div class="acc">
+                <a href="login.html"><img src="img/acct.webp" alt="" width="30px"></a>
+              </div>
+            </div>
+          </div>
+        <div class="main-address">
+          <div class="address">
+            <div class="address-header">
+              <p>Add Shipping Address</p>
+            </div>
+            <div class="address-fields">
+              <div>
+                <label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="name" id="name" placeholder="Name">
+                <label for="phone">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel" name="phone" id="phone" placeholder="1231234545" pattern="[0-9]{5}[0-9]{5}" required>
+              </div>
+              <div>
+                <label for="pincode">PinCode</label>&nbsp;
+                <input type="tel" name="pincode" id="pincode" placeholder="524001" pattern="[0-9]{3}[0-9]{3}" required>
+                <label for="mark">Land Mark</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="mark" id="mark" placeholder="Land Mark">
+              </div>
+              <div class="text-area">
+                <label for="address"><p>Address [ city, area and Street ]</p></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea id="address" name="address" placeholder="enter your Address"></textarea>
+              </div>
+              <div>
+                <label for="state">State</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="state" id="state">
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Telengana">Telengana</option>
+                  <option value="Tamil Nadu">Tamil Nadu</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Maharastra">Maharastra</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="country">Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="country" id="country">
+                  <option value="India">India</option>
+                  <option value="Pakistan">Maharastra</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="Sri lanka">Sri lanka</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" name="Same" id="Same"><label for="Same">Same as Billing Address</label> &nbsp;&nbsp;<a href="#">Add Billing Address</a>
+            </div>
+            <div class="address-save">
+              <button>Save And Deliver Here</button>
+            </div>
+          </div>
+          <div class="order">
+            <div class="address-header">
+              <p>
+                Cart --- -- Delivery --- -- Payment
+              </p>
+            </div>
+            <div class="summa">
+              <p class="he1">Order Summery</p>
+              <p>Order Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.2456</p>
+              <p>Delivery Charges&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.3087</p>
+            </div>
+            <div class="dev">
+              <p class="he1">Delivery Summary</p>
+              <div class="d-s">
+                <div class="image-1">
+                  <img src="img/jaket.jpg" alt="">
+                </div>
+                <div class="details">
+                  <p>Standard Delivery</p>
+                  <p class="small">Expected on 21 May 2023</p>
+                  <p>Rs 120 <span class="change">Change</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="place-order">
+              <p>Total Payable &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.4300</p>
+              <button onclick="gotopayment()">Place Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="links">
+            <div class="store">
+              <p class="f-head"><strong>ONLINE STORE</strong></p>
+              <a href="clothing.html"><P>MEN CLOTHING</P></a>
+              <a href="clothing.html"><P>WOMEN CLOTHING</P></a>
+              <a href="accessories.html"><P>MEN ACCESSORIES</P></a>
+              <a href="accessories.html"><P>WOMEN ACCESSORIES</P></a>
+            </div>
+            <div>
+              <p class="f-head"><strong>HELPFUL LINKS</strong></p>
+              <a href="index.html"><P>HOME</P></a>
+              <a href="about.html"><P>ABOUT</P></a>
+              <a href="contact.html"><P>CONTACT US</P></a>
+              <a href="cart.html"><p>CART</p></a>
+            </div>
+            <div>
+              <p class="f-head"><strong>PARTNERS</strong></p>
+              <P>ZARA</P>
+              <P>PANTALOONS</P>
+              <P>LEVIS</P>
+              <P>UCB</P>
+            </div>
+            <div class="add">
+              <p class="f-head"><strong>ADDRESS</strong></p>
+              <P>BUILDING 101</P>
+              <P>CENTRAL PARK</P>
+              <P>LA - 927188</P>
+              <P>USA</P>
+            </div>
+          </div>
+          <div class="last">
+            <p>Suneel kumar    |     cool</p> 
+          </div>
+        </div>
+        <script src="js/index.js"></script>
+      </body>
+  </html>

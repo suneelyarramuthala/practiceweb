@@ -18,6 +18,16 @@ function decreaseCount(a, b) {
 function GoToContact(){
   location.replace("contact.html")
 }
+function GoToCart(){
+  location.replace("cart.html")
+}
+function GoToAddress(){
+  location.replace("address.html")
+}
+function gotopayment(){
+  location.replace("payment.html")
+}
+
 function productpage(){
   window.location.href = "product.html";
 }

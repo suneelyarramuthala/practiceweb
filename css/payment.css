@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(240, 240, 240);
+  font-family: sans-serif;
+  margin: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 25px;
+}
+.track p{
+  margin: 0;
+  padding: 0;
+}
+.pay-through{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.options{
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  min-height: 350px;
+}
+.top{
+  display: flex;
+  min-height: 150px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small{
+  font-size: smaller;
+  padding: 3px;
+}
+.bold{
+  font-weight: bold;
+}
+
+.shipping{
+  display: flex;
+  justify-content: space-between;
+}
+.summary p{
+  margin: 0;
+}
+.footer p{
+  margin: 0;
+}
+.footer h1{
+  margin: 0;
+}
+.three img{
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+.three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img{
+  max-width: 28px;
+  height: auto;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  padding-left: 350px ;
+  padding-right:  350px;
+  
+}
+.item{
+  font-size: small;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.home a{
+  color: black !important;
+}
+button{
+  width:100%;
+  min-height: 40px;
+  color: white;
+  background-color: rgb(0, 130, 54);
+  border: 1px solid rgb(0, 130, 54);
+  border-radius: 8px;
+}
+.cancel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cancel a{
+  color: black;
+}
